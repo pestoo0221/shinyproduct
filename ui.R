@@ -24,7 +24,7 @@ shinyUI(pageWithSidebar(
   mainPanel(
     tabsetPanel(
       tabPanel(h4("About me"), 
-               h5("This application will help you to predict your automobile performce in the sense of miles per galon based on its horse power and transmission type. This information you need to provide is:"),
+               h5("This application will help you to predict your automobile performce in the sense of miles per gallon based on its horse power and transmission type. This information you need to provide is:"),
                p("* horse power: between 50 and 400"),
                p("* transmission type: automatic or manual"),
                br(),
