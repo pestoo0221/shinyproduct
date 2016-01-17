@@ -5,4 +5,15 @@ This application will help you to predict your automobile performce in the sense
 * transmission type: automatic or manual,
 
 After you input these two information on the left panel, you could hit the 'Try it out' to see your car's performance!
+
+You can download and run this app on your computer by
+
+```{r}
+shiny::runGitHub('shinyproduct', 'pestoo0221')
+```
+
+Or you can just run it through the shiny server by click the link
+```{r}
+https://pestoo0221.shinyapps.io/shinyproduct/
+```
               

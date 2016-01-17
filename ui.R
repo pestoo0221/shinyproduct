@@ -28,7 +28,14 @@ shinyUI(pageWithSidebar(
                p("* horse power: between 50 and 400"),
                p("* transmission type: automatic or manual"),
                br(),
-               h5("After you input these two information on the left panel, you could hit the 'Try it out' to see your car's performance!")
+               h5("After you input these two information on the left panel, you could hit the 'Try it out' to see your car's performance!"),
+               br(),
+               h5("This app is shared on github:"), 
+               a("https://github.com/pestoo0221/shinyproduct",href="https://github.com/pestoo0221/shinyproduct"),
+                h5("You can download and run this app on your computer by typing in R"),
+              code("shiny::runGitHub('shinyproduct', 'pestoo0221')"),
+               h5("Or you can run this app just by going to the website: "),
+                a("https://pestoo0221.shinyapps.io/shinyproduct/",href="https://pestoo0221.shinyapps.io/shinyproduct/")
                ),
       
       
